@@ -1,0 +1,16 @@
+kairos:
+  api: 
+    id: 
+    key: 
+proxy:
+  enable: false
+spring:
+  thymeleaf:
+    cache: false
+    prefix: classpath:/templates/
+    suffix: .html
+    mode: HTML5
+  http:
+    multipart:
+      max-file-size: 128MB
+      max-request-size: 128MB 
